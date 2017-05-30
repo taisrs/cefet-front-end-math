@@ -68,8 +68,8 @@ Além dos valores do discriminante (Δ) e das raízes, **escreva no resultado ta
    ![Imagem mostrando como ver os erros JavaScript na ferramenta do desenvolvedor](imgs/erro-js.png)
 
 
-[input]: https://fegemo.github.io/cefet-front-end/classes/js1/#criando-input
-[button]: https://fegemo.github.io/cefet-front-end/classes/js1/#criando-botoes
+[input]: https://fegemo.github.io/cefet-front-end/classes/js1/#campo-de-entrada-numerica
+[button]: https://fegemo.github.io/cefet-front-end/classes/js1/#botoes-de-acao
 [incluindo-js]: https://fegemo.github.io/cefet-front-end/classes/js1/#incluindo-js
 [recuperar-elemento-dom]: https://fegemo.github.io/cefet-front-end/classes/js1/#recuperando-elemento-dom
 [valor-do-input]: https://fegemo.github.io/cefet-front-end/classes/js1/#valor-do-input
