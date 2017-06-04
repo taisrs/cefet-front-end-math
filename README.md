@@ -66,7 +66,12 @@ Além dos valores do discriminante (Δ) e das raízes, **escreva no resultado ta
    - É necessário investigar. Para isso, abra a ferramenta do desenvolvedor e procure por erros no console.
 
    ![Imagem mostrando como ver os erros JavaScript na ferramenta do desenvolvedor](imgs/erro-js.png)
-
+1. Como "colocar a saída" em um `<input>`?
+   - É possível recuperar, mas também **definir o valor**
+     de um `<input>`. Para isso, basta atribuir um valor
+     à propriedade `value` de um elemento HTML, como
+     pode ser visto no
+     [slide sobre valores de um input][valor-do-input].
 
 [input]: https://fegemo.github.io/cefet-front-end/classes/js1/#campo-de-entrada-numerica
 [button]: https://fegemo.github.io/cefet-front-end/classes/js1/#botoes-de-acao
