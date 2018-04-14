@@ -10,7 +10,8 @@
   <body>
     <header>
       <img src="imgs/icone-funcao.png" alt="Ícone de função matemática">
-      <h1>Equações</h1></header>
+      <h1>Equações</h1>
+    </header>
     <main class="paper">
       <h2>Resolvendo equações de 2º grau</h2>
       <p>Se você tem uma equação na forma
@@ -24,7 +25,9 @@
         <input id="coeficiente-a" type="number" value="1">
         <label for="coeficiente-b" class="matematica">b: </label>
         <input id="coeficiente-b" type="number" value="1">
-        <!-- colocar o coeficiente c e o button aqui -->
+        <label for="coeficiente-c" class="matematica">c: <label>
+        <input id="coeficiente-c" type="number" value="1">
+        <button id="botao-resolver">Resolver!</button>
       </section>
       <section id="resultado">
         O resultado é:
@@ -43,6 +46,29 @@
           </li>
         </ul>
       </section>
+      <section id='mais-calculos'>
+         Quantidade de raízes reais distintas:
+         <input id="raizes-reais-diferentes" type="number" disabled>
+         <input id="delta-aspecto" type="text" disabled>
+
+         <div id="concavidade">
+             <img class="oculto" id="up" src="imgs/up.gif" alt="Gráfico concavidade para cima" >
+             <img class="oculto" id="down" src="imgs/down.gif" alt="Gráfico concavidade para baixo">
+         </div>
+
+         Ponto de <input id="vertice" type="text" disabled> absoluto:
+         <ul>
+          <li>
+              <span class="matematica">x<sub>v</sub></span>: <input id="resultado-xv" type="number" disabled>
+              <span class="matematica">x<sub>v</sub> = -b/2a</span>
+          </li>
+          <li>
+              <span class="matematica">y<sub>v</sub></span>: <input id="resultado-yv" type="number" disabled>
+              <span class="matematica">y<sub>v</sub> = -Δ/4a</span>
+          </li>
+         </ul>
+      </section>
     </main>
+    <script src="animation.js"></script>
   </body>
 </html>

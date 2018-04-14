@@ -102,13 +102,18 @@ header h1 {
   font-weight: bold;
 }
 
-input[type="number"] {
+input[type="number"],
+input[type="text"] {
   width: 5em;
 }
 
+input[type="text"] {
+  text-align: center;
+  font-weight: bold;
+}
 
-
-#coeficientes-da-equacao {
+#coeficientes-da-equacao,
+#concavidade  {
   position: relative;
   border: 1px solid silver;
   border-radius: 0.25em;
@@ -116,8 +121,8 @@ input[type="number"] {
   padding: 1.5em 1em 1em;
 }
 
-#coeficientes-da-equacao::before {
-  content: "Coeficientes";
+#coeficientes-da-equacao::before,
+#concavidade::before {
   position: absolute;
   left: 1em;
   top: -0.5em;
@@ -127,4 +132,27 @@ input[type="number"] {
   line-height: 1em;
   padding: 0.15em;
   border-radius: 0.15em;
+}
+
+#coeficientes-da-equacao::before {
+  content: "Coeficientes";
+}
+
+#concavidade::before {
+    content: "Concavidade";
+}
+
+#concavidade {
+    box-sizing: border-box;
+    width: 225px;
+    height: 225px;
+}
+
+#concavidade img {
+    position: absolute; left: 0; right: 0; top: 0; bottom: 0;
+    margin: auto;
+}
+
+.oculto {
+    visibility: hidden;
 }
